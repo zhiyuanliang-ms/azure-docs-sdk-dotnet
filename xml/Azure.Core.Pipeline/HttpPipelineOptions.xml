@@ -25,6 +25,7 @@
     <AssemblyVersion>1.41.0.0</AssemblyVersion>
     <AssemblyVersion>1.42.0.0</AssemblyVersion>
     <AssemblyVersion>1.43.0.0</AssemblyVersion>
+    <AssemblyVersion>1.44.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -46,6 +47,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.43.0.0</AssemblyVersion>
+        <AssemblyVersion>1.44.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="options" Type="Azure.Core.ClientOptions" />
@@ -68,6 +70,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.43.0.0</AssemblyVersion>
+        <AssemblyVersion>1.44.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ClientOptions</ReturnType>
@@ -90,6 +93,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.43.0.0</AssemblyVersion>
+        <AssemblyVersion>1.44.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Azure.Core.Pipeline.HttpPipelinePolicy&gt;</ReturnType>
@@ -112,6 +116,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.43.0.0</AssemblyVersion>
+        <AssemblyVersion>1.44.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Azure.Core.Pipeline.HttpPipelinePolicy&gt;</ReturnType>
@@ -134,6 +139,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.43.0.0</AssemblyVersion>
+        <AssemblyVersion>1.44.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.RequestFailedDetailsParser</ReturnType>
@@ -156,6 +162,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.43.0.0</AssemblyVersion>
+        <AssemblyVersion>1.44.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResponseClassifier</ReturnType>
