@@ -1,7 +1,7 @@
 {
   "Name": "Azure.ResourceManager.ServiceBus",
-  "Version": "1.1.0-alpha.20241001.1",
-  "DevVersion": "1.1.0-alpha.20241001.1",
+  "Version": "1.1.0-alpha.20241002.1",
+  "DevVersion": "1.1.0-alpha.20241002.1",
   "DirectoryPath": "sdk/servicebus/Azure.ResourceManager.ServiceBus",
   "ServiceDirectory": "servicebus",
   "ReadMePath": "sdk/servicebus/Azure.ResourceManager.ServiceBus/README.md",
