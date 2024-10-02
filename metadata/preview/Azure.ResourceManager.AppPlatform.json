@@ -1,7 +1,7 @@
 {
   "Name": "Azure.ResourceManager.AppPlatform",
-  "Version": "1.2.0-alpha.20241001.1",
-  "DevVersion": "1.2.0-alpha.20241001.1",
+  "Version": "1.2.0-alpha.20241002.1",
+  "DevVersion": "1.2.0-alpha.20241002.1",
   "DirectoryPath": "sdk/appplatform/Azure.ResourceManager.AppPlatform",
   "ServiceDirectory": "appplatform",
   "ReadMePath": "sdk/appplatform/Azure.ResourceManager.AppPlatform/README.md",
