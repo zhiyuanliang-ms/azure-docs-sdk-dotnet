@@ -1,7 +1,7 @@
 {
   "Name": "Azure.AI.OpenAI",
-  "Version": "2.0.0-beta.6",
-  "DevVersion": null,
+  "Version": "2.1.0-alpha.20241002.2",
+  "DevVersion": "2.1.0-alpha.20241002.2",
   "DirectoryPath": "sdk/openai/Azure.AI.OpenAI",
   "ServiceDirectory": "openai",
   "ReadMePath": "sdk/openai/Azure.AI.OpenAI/README.md",
@@ -10,7 +10,7 @@
   "SdkType": "client",
   "IsNewSdk": true,
   "ArtifactName": "Azure.AI.OpenAI",
-  "ReleaseStatus": "2024-09-23",
+  "ReleaseStatus": "2024-10-01",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "Namespaces": [
