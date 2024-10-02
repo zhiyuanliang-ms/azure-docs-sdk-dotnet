@@ -1,7 +1,7 @@
 {
   "Name": "Azure.ResourceManager.CostManagement",
-  "Version": "1.1.0-alpha.20241001.1",
-  "DevVersion": "1.1.0-alpha.20241001.1",
+  "Version": "1.1.0-alpha.20241002.1",
+  "DevVersion": "1.1.0-alpha.20241002.1",
   "DirectoryPath": "sdk/costmanagement/Azure.ResourceManager.CostManagement",
   "ServiceDirectory": "costmanagement",
   "ReadMePath": "sdk/costmanagement/Azure.ResourceManager.CostManagement/README.md",
