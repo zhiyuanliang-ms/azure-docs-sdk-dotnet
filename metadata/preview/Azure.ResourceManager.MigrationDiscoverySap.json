@@ -1,7 +1,7 @@
 {
   "Name": "Azure.ResourceManager.MigrationDiscoverySap",
-  "Version": "1.0.0-alpha.20241001.1",
-  "DevVersion": "1.0.0-alpha.20241001.1",
+  "Version": "1.0.0-alpha.20241002.1",
+  "DevVersion": "1.0.0-alpha.20241002.1",
   "DirectoryPath": "sdk/migrationdiscoverysap/Azure.ResourceManager.MigrationDiscoverySap",
   "ServiceDirectory": "migrationdiscoverysap",
   "ReadMePath": "sdk/migrationdiscoverysap/Azure.ResourceManager.MigrationDiscoverySap/README.md",
