@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.AI.OpenAI</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <AssemblyVersion>2.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -36,6 +37,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.OpenAI</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -55,6 +57,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.OpenAI</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;System.String&gt;</ReturnType>
@@ -65,7 +68,7 @@
         <remarks>
           <para>
             This field is applicable to data source types including: <see cref="T:Azure.AI.OpenAI.Chat.AzureSearchChatDataSource" />,
-            <see cref="T:Azure.AI.OpenAI.Chat.AzureCosmosDBChatDataSource" />, <see cref="T:Azure.AI.OpenAI.Chat.ElasticsearchChatDataSource" />, and
+            <see cref="T:Azure.AI.OpenAI.Chat.CosmosChatDataSource" />, <see cref="T:Azure.AI.OpenAI.Chat.ElasticsearchChatDataSource" />, and
             <see cref="T:Azure.AI.OpenAI.Chat.PineconeChatDataSource" />.
             </para>
         </remarks>
@@ -81,6 +84,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.OpenAI</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -91,22 +95,23 @@
         <remarks>
           <para>
             This field is applicable to data source types including: <see cref="T:Azure.AI.OpenAI.Chat.AzureSearchChatDataSource" />,
-            <see cref="T:Azure.AI.OpenAI.Chat.AzureCosmosDBChatDataSource" />, <see cref="T:Azure.AI.OpenAI.Chat.ElasticsearchChatDataSource" />, and
+            <see cref="T:Azure.AI.OpenAI.Chat.CosmosChatDataSource" />, <see cref="T:Azure.AI.OpenAI.Chat.ElasticsearchChatDataSource" />, and
             <see cref="T:Azure.AI.OpenAI.Chat.PineconeChatDataSource" />.
             </para>
         </remarks>
       </Docs>
     </Member>
-    <Member MemberName="FilepathFieldName">
-      <MemberSignature Language="C#" Value="public string FilepathFieldName { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string FilepathFieldName" />
-      <MemberSignature Language="DocId" Value="P:Azure.AI.OpenAI.Chat.DataSourceFieldMappings.FilepathFieldName" />
-      <MemberSignature Language="VB.NET" Value="Public Property FilepathFieldName As String" />
-      <MemberSignature Language="F#" Value="member this.FilepathFieldName : string with get, set" Usage="Azure.AI.OpenAI.Chat.DataSourceFieldMappings.FilepathFieldName" />
+    <Member MemberName="FilePathFieldName">
+      <MemberSignature Language="C#" Value="public string FilePathFieldName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FilePathFieldName" />
+      <MemberSignature Language="DocId" Value="P:Azure.AI.OpenAI.Chat.DataSourceFieldMappings.FilePathFieldName" />
+      <MemberSignature Language="VB.NET" Value="Public Property FilePathFieldName As String" />
+      <MemberSignature Language="F#" Value="member this.FilePathFieldName : string with get, set" Usage="Azure.AI.OpenAI.Chat.DataSourceFieldMappings.FilePathFieldName" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.OpenAI</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -117,7 +122,7 @@
         <remarks>
           <para>
             This field is applicable to data source types including: <see cref="T:Azure.AI.OpenAI.Chat.AzureSearchChatDataSource" />,
-            <see cref="T:Azure.AI.OpenAI.Chat.AzureCosmosDBChatDataSource" />, <see cref="T:Azure.AI.OpenAI.Chat.ElasticsearchChatDataSource" />, and
+            <see cref="T:Azure.AI.OpenAI.Chat.CosmosChatDataSource" />, <see cref="T:Azure.AI.OpenAI.Chat.ElasticsearchChatDataSource" />, and
             <see cref="T:Azure.AI.OpenAI.Chat.PineconeChatDataSource" />.
             </para>
         </remarks>
@@ -133,6 +138,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.OpenAI</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;System.String&gt;</ReturnType>
@@ -158,6 +164,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.OpenAI</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AI.OpenAI.Chat.DataSourceFieldMappings</ReturnType>
@@ -190,6 +197,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.OpenAI</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -221,6 +229,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.OpenAI</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AI.OpenAI.Chat.DataSourceFieldMappings</ReturnType>
@@ -253,6 +262,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.OpenAI</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -282,6 +292,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.OpenAI</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
@@ -309,6 +320,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.OpenAI</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -331,6 +343,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.OpenAI</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -343,7 +356,7 @@
         <remarks>
           <para>
             This field is applicable to data source types including: <see cref="T:Azure.AI.OpenAI.Chat.AzureSearchChatDataSource" />,
-            <see cref="T:Azure.AI.OpenAI.Chat.AzureCosmosDBChatDataSource" />, <see cref="T:Azure.AI.OpenAI.Chat.ElasticsearchChatDataSource" />, and
+            <see cref="T:Azure.AI.OpenAI.Chat.CosmosChatDataSource" />, <see cref="T:Azure.AI.OpenAI.Chat.ElasticsearchChatDataSource" />, and
             <see cref="T:Azure.AI.OpenAI.Chat.PineconeChatDataSource" />.
             </para>
         </remarks>
@@ -359,6 +372,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.OpenAI</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;System.String&gt;</ReturnType>
@@ -369,7 +383,7 @@
         <remarks>
           <para>
             This field is applicable to data source types including: <see cref="T:Azure.AI.OpenAI.Chat.AzureSearchChatDataSource" />,
-            <see cref="T:Azure.AI.OpenAI.Chat.AzureCosmosDBChatDataSource" />, and <see cref="T:Azure.AI.OpenAI.Chat.ElasticsearchChatDataSource" />.
+            <see cref="T:Azure.AI.OpenAI.Chat.CosmosChatDataSource" />, and <see cref="T:Azure.AI.OpenAI.Chat.ElasticsearchChatDataSource" />.
             </para>
           <para>
             It is not applicable to types including: <see cref="T:Azure.AI.OpenAI.Chat.PineconeChatDataSource" />.

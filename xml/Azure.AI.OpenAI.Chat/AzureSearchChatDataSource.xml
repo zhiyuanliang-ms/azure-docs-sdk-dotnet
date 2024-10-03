@@ -1,15 +1,16 @@
 <Type Name="AzureSearchChatDataSource" FullName="Azure.AI.OpenAI.Chat.AzureSearchChatDataSource">
-  <TypeSignature Language="C#" Value="public class AzureSearchChatDataSource : Azure.AI.OpenAI.Chat.AzureChatDataSource, System.ClientModel.Primitives.IJsonModel&lt;Azure.AI.OpenAI.Chat.AzureSearchChatDataSource&gt;, System.ClientModel.Primitives.IPersistableModel&lt;Azure.AI.OpenAI.Chat.AzureSearchChatDataSource&gt;" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AzureSearchChatDataSource extends Azure.AI.OpenAI.Chat.AzureChatDataSource implements class System.ClientModel.Primitives.IJsonModel`1&lt;class Azure.AI.OpenAI.Chat.AzureSearchChatDataSource&gt;, class System.ClientModel.Primitives.IPersistableModel`1&lt;class Azure.AI.OpenAI.Chat.AzureSearchChatDataSource&gt;" />
+  <TypeSignature Language="C#" Value="public class AzureSearchChatDataSource : Azure.AI.OpenAI.Chat.ChatDataSource, System.ClientModel.Primitives.IJsonModel&lt;Azure.AI.OpenAI.Chat.AzureSearchChatDataSource&gt;, System.ClientModel.Primitives.IPersistableModel&lt;Azure.AI.OpenAI.Chat.AzureSearchChatDataSource&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AzureSearchChatDataSource extends Azure.AI.OpenAI.Chat.ChatDataSource implements class System.ClientModel.Primitives.IJsonModel`1&lt;class Azure.AI.OpenAI.Chat.AzureSearchChatDataSource&gt;, class System.ClientModel.Primitives.IPersistableModel`1&lt;class Azure.AI.OpenAI.Chat.AzureSearchChatDataSource&gt;" />
   <TypeSignature Language="DocId" Value="T:Azure.AI.OpenAI.Chat.AzureSearchChatDataSource" />
-  <TypeSignature Language="VB.NET" Value="Public Class AzureSearchChatDataSource&#xA;Inherits AzureChatDataSource&#xA;Implements IJsonModel(Of AzureSearchChatDataSource), IPersistableModel(Of AzureSearchChatDataSource)" />
-  <TypeSignature Language="F#" Value="type AzureSearchChatDataSource = class&#xA;    inherit AzureChatDataSource&#xA;    interface IJsonModel&lt;AzureSearchChatDataSource&gt;&#xA;    interface IPersistableModel&lt;AzureSearchChatDataSource&gt;" />
+  <TypeSignature Language="VB.NET" Value="Public Class AzureSearchChatDataSource&#xA;Inherits ChatDataSource&#xA;Implements IJsonModel(Of AzureSearchChatDataSource), IPersistableModel(Of AzureSearchChatDataSource)" />
+  <TypeSignature Language="F#" Value="type AzureSearchChatDataSource = class&#xA;    inherit ChatDataSource&#xA;    interface IJsonModel&lt;AzureSearchChatDataSource&gt;&#xA;    interface IPersistableModel&lt;AzureSearchChatDataSource&gt;" />
   <AssemblyInfo>
     <AssemblyName>Azure.AI.OpenAI</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <AssemblyVersion>2.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
-    <BaseTypeName>Azure.AI.OpenAI.Chat.AzureChatDataSource</BaseTypeName>
+    <BaseTypeName>Azure.AI.OpenAI.Chat.ChatDataSource</BaseTypeName>
   </Base>
   <Interfaces>
     <Interface>
@@ -36,6 +37,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.OpenAI</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -51,16 +53,17 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="AllowPartialResult">
-      <MemberSignature Language="C#" Value="public bool? AllowPartialResult { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; AllowPartialResult" />
-      <MemberSignature Language="DocId" Value="P:Azure.AI.OpenAI.Chat.AzureSearchChatDataSource.AllowPartialResult" />
-      <MemberSignature Language="VB.NET" Value="Public Property AllowPartialResult As Nullable(Of Boolean)" />
-      <MemberSignature Language="F#" Value="member this.AllowPartialResult : Nullable&lt;bool&gt; with get, set" Usage="Azure.AI.OpenAI.Chat.AzureSearchChatDataSource.AllowPartialResult" />
+    <Member MemberName="AllowPartialResults">
+      <MemberSignature Language="C#" Value="public bool? AllowPartialResults { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; AllowPartialResults" />
+      <MemberSignature Language="DocId" Value="P:Azure.AI.OpenAI.Chat.AzureSearchChatDataSource.AllowPartialResults" />
+      <MemberSignature Language="VB.NET" Value="Public Property AllowPartialResults As Nullable(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.AllowPartialResults : Nullable&lt;bool&gt; with get, set" Usage="Azure.AI.OpenAI.Chat.AzureSearchChatDataSource.AllowPartialResults" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.OpenAI</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -84,6 +87,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.OpenAI</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AI.OpenAI.Chat.DataSourceAuthentication</ReturnType>
@@ -95,7 +99,7 @@
         <value>To be added.</value>
         <remarks>
             Azure Search data sources support any of the following options:
-            <list type="bullet"><item><see cref="M:Azure.AI.OpenAI.Chat.DataSourceAuthentication.FromApiKey(System.String)" /></item><item><see cref="M:Azure.AI.OpenAI.Chat.DataSourceAuthentication.FromAccessToken(System.String)" /></item><item><see cref="M:Azure.AI.OpenAI.Chat.DataSourceAuthentication.FromSystemManagedIdentity" /></item><item><see cref="M:Azure.AI.OpenAI.Chat.DataSourceAuthentication.FromUserManagedIdentity(System.String)" /></item></list></remarks>
+            <list type="bullet"><item><see cref="M:Azure.AI.OpenAI.Chat.DataSourceAuthentication.FromApiKey(System.String)" /></item><item><see cref="M:Azure.AI.OpenAI.Chat.DataSourceAuthentication.FromAccessToken(System.String)" /></item><item><see cref="M:Azure.AI.OpenAI.Chat.DataSourceAuthentication.FromSystemManagedIdentity" /></item><item><see cref="M:Azure.AI.OpenAI.Chat.DataSourceAuthentication.FromUserManagedIdentity(Azure.Core.ResourceIdentifier)" /></item></list></remarks>
       </Docs>
     </Member>
     <Member MemberName="Endpoint">
@@ -108,6 +112,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.OpenAI</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>
@@ -128,6 +133,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.OpenAI</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AI.OpenAI.Chat.DataSourceFieldMappings</ReturnType>
@@ -137,7 +143,7 @@
         <value>To be added.</value>
         <remarks>
             Supported field mappings for Azure Search data sources include:
-            <list type="bullet"><item><see cref="P:Azure.AI.OpenAI.Chat.DataSourceFieldMappings.ContentFieldNames" /></item><item><see cref="P:Azure.AI.OpenAI.Chat.DataSourceFieldMappings.ContentFieldSeparator" /></item><item><see cref="P:Azure.AI.OpenAI.Chat.DataSourceFieldMappings.TitleFieldName" /></item><item><see cref="P:Azure.AI.OpenAI.Chat.DataSourceFieldMappings.UrlFieldName" /></item><item><see cref="P:Azure.AI.OpenAI.Chat.DataSourceFieldMappings.FilepathFieldName" /></item><item><see cref="P:Azure.AI.OpenAI.Chat.DataSourceFieldMappings.VectorFieldNames" /></item><item><see cref="P:Azure.AI.OpenAI.Chat.DataSourceFieldMappings.ImageVectorFieldNames" /></item></list></remarks>
+            <list type="bullet"><item><see cref="P:Azure.AI.OpenAI.Chat.DataSourceFieldMappings.ContentFieldNames" /></item><item><see cref="P:Azure.AI.OpenAI.Chat.DataSourceFieldMappings.ContentFieldSeparator" /></item><item><see cref="P:Azure.AI.OpenAI.Chat.DataSourceFieldMappings.TitleFieldName" /></item><item><see cref="P:Azure.AI.OpenAI.Chat.DataSourceFieldMappings.UrlFieldName" /></item><item><see cref="P:Azure.AI.OpenAI.Chat.DataSourceFieldMappings.FilePathFieldName" /></item><item><see cref="P:Azure.AI.OpenAI.Chat.DataSourceFieldMappings.VectorFieldNames" /></item><item><see cref="P:Azure.AI.OpenAI.Chat.DataSourceFieldMappings.ImageVectorFieldNames" /></item></list></remarks>
       </Docs>
     </Member>
     <Member MemberName="Filter">
@@ -150,6 +156,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.OpenAI</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -170,6 +177,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.OpenAI</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -190,6 +198,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.OpenAI</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -210,6 +219,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.OpenAI</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
@@ -223,16 +233,17 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="OutputContextFlags">
-      <MemberSignature Language="C#" Value="public Azure.AI.OpenAI.Chat.DataSourceOutputContexts? OutputContextFlags { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.AI.OpenAI.Chat.DataSourceOutputContexts&gt; OutputContextFlags" />
-      <MemberSignature Language="DocId" Value="P:Azure.AI.OpenAI.Chat.AzureSearchChatDataSource.OutputContextFlags" />
-      <MemberSignature Language="VB.NET" Value="Public Property OutputContextFlags As Nullable(Of DataSourceOutputContexts)" />
-      <MemberSignature Language="F#" Value="member this.OutputContextFlags : Nullable&lt;Azure.AI.OpenAI.Chat.DataSourceOutputContexts&gt; with get, set" Usage="Azure.AI.OpenAI.Chat.AzureSearchChatDataSource.OutputContextFlags" />
+    <Member MemberName="OutputContexts">
+      <MemberSignature Language="C#" Value="public Azure.AI.OpenAI.Chat.DataSourceOutputContexts? OutputContexts { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.AI.OpenAI.Chat.DataSourceOutputContexts&gt; OutputContexts" />
+      <MemberSignature Language="DocId" Value="P:Azure.AI.OpenAI.Chat.AzureSearchChatDataSource.OutputContexts" />
+      <MemberSignature Language="VB.NET" Value="Public Property OutputContexts As Nullable(Of DataSourceOutputContexts)" />
+      <MemberSignature Language="F#" Value="member this.OutputContexts : Nullable&lt;Azure.AI.OpenAI.Chat.DataSourceOutputContexts&gt; with get, set" Usage="Azure.AI.OpenAI.Chat.AzureSearchChatDataSource.OutputContexts" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.OpenAI</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.AI.OpenAI.Chat.DataSourceOutputContexts&gt;</ReturnType>
@@ -240,7 +251,7 @@
       <Docs>
         <summary>
             The <c>include_context</c> flags to request for an On Your Data retrieval result, which control what information
-            will be available on <see cref="T:Azure.AI.OpenAI.Chat.AzureChatMessageContext" /> instances in the response.
+            will be available on <see cref="T:Azure.AI.OpenAI.Chat.ChatMessageContext" /> instances in the response.
             </summary>
         <value>To be added.</value>
         <remarks>
@@ -262,6 +273,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.OpenAI</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.AI.OpenAI.Chat.DataSourceQueryType&gt;</ReturnType>
@@ -282,6 +294,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.OpenAI</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -302,6 +315,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.OpenAI</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
@@ -328,6 +342,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.OpenAI</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AI.OpenAI.Chat.AzureSearchChatDataSource</ReturnType>
@@ -360,6 +375,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.OpenAI</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -391,6 +407,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.OpenAI</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AI.OpenAI.Chat.AzureSearchChatDataSource</ReturnType>
@@ -423,6 +440,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.OpenAI</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -452,6 +470,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.OpenAI</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
@@ -479,6 +498,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.OpenAI</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
@@ -499,6 +519,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.OpenAI</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AI.OpenAI.Chat.DataSourceVectorizer</ReturnType>

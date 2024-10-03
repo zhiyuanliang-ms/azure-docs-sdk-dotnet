@@ -27,6 +27,7 @@
     <AssemblyVersion>1.41.0.0</AssemblyVersion>
     <AssemblyVersion>1.42.0.0</AssemblyVersion>
     <AssemblyVersion>1.43.0.0</AssemblyVersion>
+    <AssemblyVersion>1.44.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
@@ -49,6 +50,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.43.0.0</AssemblyVersion>
+        <AssemblyVersion>1.44.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.WaitUntil</ReturnType>
@@ -70,6 +72,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.43.0.0</AssemblyVersion>
+        <AssemblyVersion>1.44.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.WaitUntil</ReturnType>
