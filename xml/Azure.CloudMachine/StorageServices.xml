@@ -1,0 +1,75 @@
+<Type Name="StorageServices" FullName="Azure.CloudMachine.StorageServices">
+  <TypeSignature Language="C#" Value="public static class StorageServices" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit StorageServices extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.CloudMachine.StorageServices" />
+  <TypeSignature Language="VB.NET" Value="Public Module StorageServices" />
+  <TypeSignature Language="F#" Value="type StorageServices = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.CloudMachine</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Download">
+      <MemberSignature Language="C#" Value="public static BinaryData Download (this Azure.CloudMachine.CloudMachineClient cm, string name);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.BinaryData Download(class Azure.CloudMachine.CloudMachineClient cm, string name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.CloudMachine.StorageServices.Download(Azure.CloudMachine.CloudMachineClient,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Download (cm As CloudMachineClient, name As String) As BinaryData" />
+      <MemberSignature Language="F#" Value="static member Download : Azure.CloudMachine.CloudMachineClient * string -&gt; BinaryData" Usage="Azure.CloudMachine.StorageServices.Download (cm, name)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.CloudMachine</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.BinaryData</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cm" Type="Azure.CloudMachine.CloudMachineClient" RefType="this" />
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="cm">To be added.</param>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Upload">
+      <MemberSignature Language="C#" Value="public static string Upload (this Azure.CloudMachine.CloudMachineClient cm, object json, string? name = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string Upload(class Azure.CloudMachine.CloudMachineClient cm, object json, string name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.CloudMachine.StorageServices.Upload(Azure.CloudMachine.CloudMachineClient,System.Object,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Upload (cm As CloudMachineClient, json As Object, Optional name As String = Nothing) As String" />
+      <MemberSignature Language="F#" Value="static member Upload : Azure.CloudMachine.CloudMachineClient * obj * string -&gt; string" Usage="Azure.CloudMachine.StorageServices.Upload (cm, json, name)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.CloudMachine</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cm" Type="Azure.CloudMachine.CloudMachineClient" RefType="this" />
+        <Parameter Name="json" Type="System.Object" />
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="cm">To be added.</param>
+        <param name="json">To be added.</param>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

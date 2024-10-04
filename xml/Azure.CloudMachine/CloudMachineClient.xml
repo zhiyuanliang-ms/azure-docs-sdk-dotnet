@@ -1,0 +1,235 @@
+<Type Name="CloudMachineClient" FullName="Azure.CloudMachine.CloudMachineClient">
+  <TypeSignature Language="C#" Value="public class CloudMachineClient" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CloudMachineClient extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.CloudMachine.CloudMachineClient" />
+  <TypeSignature Language="VB.NET" Value="Public Class CloudMachineClient" />
+  <TypeSignature Language="F#" Value="type CloudMachineClient = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning.CloudMachine</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected CloudMachineClient ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.CloudMachine.CloudMachineClient.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.CloudMachine</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CloudMachineClient (Azure.Identity.DefaultAzureCredential? credential = default, Microsoft.Extensions.Configuration.IConfiguration? configuration = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Azure.Identity.DefaultAzureCredential credential, class Microsoft.Extensions.Configuration.IConfiguration configuration) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.CloudMachine.CloudMachineClient.#ctor(Azure.Identity.DefaultAzureCredential,Microsoft.Extensions.Configuration.IConfiguration)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional credential As DefaultAzureCredential = Nothing, Optional configuration As IConfiguration = Nothing)" />
+      <MemberSignature Language="F#" Value="new Azure.CloudMachine.CloudMachineClient : Azure.Identity.DefaultAzureCredential * Microsoft.Extensions.Configuration.IConfiguration -&gt; Azure.CloudMachine.CloudMachineClient" Usage="new Azure.CloudMachine.CloudMachineClient (credential, configuration)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.CloudMachine</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="credential" Type="Azure.Identity.DefaultAzureCredential" />
+        <Parameter Name="configuration" Type="Microsoft.Extensions.Configuration.IConfiguration" />
+      </Parameters>
+      <Docs>
+        <param name="credential">To be added.</param>
+        <param name="configuration">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClientCache">
+      <MemberSignature Language="C#" Value="public Azure.CloudMachine.ClientCache ClientCache { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.CloudMachine.ClientCache ClientCache" />
+      <MemberSignature Language="DocId" Value="P:Azure.CloudMachine.CloudMachineClient.ClientCache" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ClientCache As ClientCache" />
+      <MemberSignature Language="F#" Value="member this.ClientCache : Azure.CloudMachine.ClientCache" Usage="Azure.CloudMachine.CloudMachineClient.ClientCache" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.CloudMachine</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.CloudMachine.ClientCache</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Credential">
+      <MemberSignature Language="C#" Value="public Azure.Core.TokenCredential Credential { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.TokenCredential Credential" />
+      <MemberSignature Language="DocId" Value="P:Azure.CloudMachine.CloudMachineClient.Credential" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Credential As TokenCredential" />
+      <MemberSignature Language="F#" Value="member this.Credential : Azure.Core.TokenCredential" Usage="Azure.CloudMachine.CloudMachineClient.Credential" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.CloudMachine</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Core.TokenCredential</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public override bool Equals (object? obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.CloudMachine.CloudMachineClient.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="cloudMachineClient.Equals obj" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.CloudMachine</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.CloudMachine.CloudMachineClient.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="cloudMachineClient.GetHashCode " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.CloudMachine</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public string Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Id" />
+      <MemberSignature Language="DocId" Value="P:Azure.CloudMachine.CloudMachineClient.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As String" />
+      <MemberSignature Language="F#" Value="member this.Id : string" Usage="Azure.CloudMachine.CloudMachineClient.Id" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.CloudMachine</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Properties">
+      <MemberSignature Language="C#" Value="public Azure.CloudMachine.CloudMachineClient.CloudMachineProperties Properties { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Azure.CloudMachine.CloudMachineClient/CloudMachineProperties Properties" />
+      <MemberSignature Language="DocId" Value="P:Azure.CloudMachine.CloudMachineClient.Properties" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Properties As CloudMachineClient.CloudMachineProperties" />
+      <MemberSignature Language="F#" Value="member this.Properties : Azure.CloudMachine.CloudMachineClient.CloudMachineProperties" Usage="Azure.CloudMachine.CloudMachineClient.Properties" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.CloudMachine</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Azure.CloudMachine.CloudMachineClient+CloudMachineProperties</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.CloudMachine.CloudMachineClient.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="cloudMachineClient.ToString " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning.CloudMachine</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
