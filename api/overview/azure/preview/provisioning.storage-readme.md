@@ -6,7 +6,7 @@ ms.topic: reference
 ms.devlang: dotnet
 ms.service: provisioning
 ---
-# Azure Provisioning client library for .NET - version 1.0.0-alpha.20241003.4 
+# Azure Provisioning client library for .NET - version 1.0.0-alpha.20241004.3 
 
 
 Azure.Provisioning.Storage simplifies declarative resource provisioning in .NET for Azure Storage.
@@ -18,7 +18,7 @@ Azure.Provisioning.Storage simplifies declarative resource provisioning in .NET 
 Install the client library for .NET with [NuGet](https://www.nuget.org/ ):
 
 ```dotnetcli
-dotnet add package Azure.Provisioning.Storage
+dotnet add package Azure.Provisioning.Storage --prerelease
 ```
 
 ### Prerequisites
