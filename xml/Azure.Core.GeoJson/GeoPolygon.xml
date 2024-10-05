@@ -39,6 +39,8 @@
     <AssemblyVersion>1.41.0.0</AssemblyVersion>
     <AssemblyVersion>1.42.0.0</AssemblyVersion>
     <AssemblyVersion>1.43.0.0</AssemblyVersion>
+    <AssemblyVersion>1.44.0.0</AssemblyVersion>
+    <AssemblyVersion>1.45.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.Core.GeoJson.GeoObject</BaseTypeName>
@@ -108,7 +110,8 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.43.0.0</AssemblyVersion>
+        <AssemblyVersion>1.44.0.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="rings" Type="System.Collections.Generic.IEnumerable&lt;Azure.Core.GeoJson.GeoLinearRing&gt;" />
@@ -134,7 +137,8 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.43.0.0</AssemblyVersion>
+        <AssemblyVersion>1.44.0.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="positions" Type="System.Collections.Generic.IEnumerable&lt;Azure.Core.GeoJson.GeoPosition&gt;" />
@@ -160,7 +164,8 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.43.0.0</AssemblyVersion>
+        <AssemblyVersion>1.44.0.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="rings" Type="System.Collections.Generic.IEnumerable&lt;Azure.Core.GeoJson.GeoLinearRing&gt;" />
@@ -190,7 +195,8 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.43.0.0</AssemblyVersion>
+        <AssemblyVersion>1.44.0.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.GeoJson.GeoArray&lt;Azure.Core.GeoJson.GeoArray&lt;Azure.Core.GeoJson.GeoPosition&gt;&gt;</ReturnType>
@@ -216,7 +222,8 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.43.0.0</AssemblyVersion>
+        <AssemblyVersion>1.44.0.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.GeoJson.GeoLinearRing</ReturnType>
@@ -242,7 +249,8 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.43.0.0</AssemblyVersion>
+        <AssemblyVersion>1.44.0.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.Core.GeoJson.GeoLinearRing&gt;</ReturnType>
@@ -268,7 +276,8 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.43.0.0</AssemblyVersion>
+        <AssemblyVersion>1.44.0.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.GeoJson.GeoObjectType</ReturnType>
