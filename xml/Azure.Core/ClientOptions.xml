@@ -37,6 +37,8 @@
     <AssemblyVersion>1.41.0.0</AssemblyVersion>
     <AssemblyVersion>1.42.0.0</AssemblyVersion>
     <AssemblyVersion>1.43.0.0</AssemblyVersion>
+    <AssemblyVersion>1.44.0.0</AssemblyVersion>
+    <AssemblyVersion>1.45.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -57,7 +59,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.43.0.0</AssemblyVersion>
+        <AssemblyVersion>1.44.0.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -76,7 +79,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.43.0.0</AssemblyVersion>
+        <AssemblyVersion>1.44.0.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="diagnostics" Type="Azure.Core.DiagnosticsOptions" />
@@ -99,7 +103,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.43.0.0</AssemblyVersion>
+        <AssemblyVersion>1.44.0.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -128,7 +133,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.43.0.0</AssemblyVersion>
+        <AssemblyVersion>1.44.0.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ClientOptions</ReturnType>
@@ -151,7 +157,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.43.0.0</AssemblyVersion>
+        <AssemblyVersion>1.44.0.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.DiagnosticsOptions</ReturnType>
@@ -173,7 +180,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.43.0.0</AssemblyVersion>
+        <AssemblyVersion>1.44.0.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -205,7 +213,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.43.0.0</AssemblyVersion>
+        <AssemblyVersion>1.44.0.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -233,7 +242,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.43.0.0</AssemblyVersion>
+        <AssemblyVersion>1.44.0.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.RetryOptions</ReturnType>
@@ -255,7 +265,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.43.0.0</AssemblyVersion>
+        <AssemblyVersion>1.44.0.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Pipeline.HttpPipelinePolicy</ReturnType>
@@ -263,7 +274,7 @@
       <Docs>
         <summary>
             Gets or sets the policy to use for retries. If a policy is specified, it will be used in place of the <see cref="P:Azure.Core.ClientOptions.Retry" /> property.
-            The <see cref="P:Azure.Core.ClientOptions.RetryPolicy" /> type can be derived from to modify the default behavior without needing to fully implement the retry logic.
+            The <see cref="T:Azure.Core.Pipeline.RetryPolicy" /> type can be derived from to modify the default behavior without needing to fully implement the retry logic.
             If <see cref="M:Azure.Core.Pipeline.RetryPolicy.Process(Azure.Core.HttpMessage,System.ReadOnlyMemory{Azure.Core.Pipeline.HttpPipelinePolicy})" /> is overridden or a custom <see cref="T:Azure.Core.Pipeline.HttpPipelinePolicy" /> is specified,
             it is the implementer's responsibility to update the <see cref="P:Azure.Core.HttpMessage.ProcessingContext" /> values.
             </summary>
@@ -280,7 +291,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.43.0.0</AssemblyVersion>
+        <AssemblyVersion>1.44.0.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -308,7 +320,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.43.0.0</AssemblyVersion>
+        <AssemblyVersion>1.44.0.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Pipeline.HttpPipelineTransport</ReturnType>

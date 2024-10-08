@@ -35,6 +35,8 @@
     <AssemblyVersion>1.41.0.0</AssemblyVersion>
     <AssemblyVersion>1.42.0.0</AssemblyVersion>
     <AssemblyVersion>1.43.0.0</AssemblyVersion>
+    <AssemblyVersion>1.44.0.0</AssemblyVersion>
+    <AssemblyVersion>1.45.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeParameters>
     <TypeParameter Name="T" />
@@ -63,7 +65,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.43.0.0</AssemblyVersion>
+        <AssemblyVersion>1.44.0.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -80,7 +83,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.43.0.0</AssemblyVersion>
+        <AssemblyVersion>1.44.0.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;T&gt;</ReturnType>
@@ -108,7 +112,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.43.0.0</AssemblyVersion>
+        <AssemblyVersion>1.44.0.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;T&gt;</ReturnType>
@@ -136,7 +141,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
-        <AssemblyVersion>1.43.0.0</AssemblyVersion>
+        <AssemblyVersion>1.44.0.0</AssemblyVersion>
+        <AssemblyVersion>1.45.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
